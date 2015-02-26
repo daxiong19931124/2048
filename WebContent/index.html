@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>2048</title>
+
+    <!--Veewproprt 元信息-->
+    <!-- content-->
+    <!--width pixel_value 像素值  device-width 应用程序的宽和屏幕的宽一致-->
+    <!--height pixel_value  device-height 应用程序的高和屏幕的宽一致-->
+    <!--initial-scale 应用程序启动缩放的尺度-->
+    <!--minimum-scale 用户可以缩放的最小尺度值-->
+    <!--maximum-scale 用户可以放大的尺度值-->
+    <!--user-scalable 用户是否可以手势缩放页面-->
+
+    <!--不让用户手势控制页面大小-->
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/support.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/showanimation.js"></script>
+</head>
+<body>
+    <header>
+        <h1>2048</h1>
+        <a href="javascript:newGame();" id="newGame">New Game</a>
+        <p>score:<span id="score">0</span> </p>
+    </header>
+
+    <div id="grid-container">
+        <div class="grid-cell" id="grid-cell-0-0"></div>
+        <div class="grid-cell" id="grid-cell-0-1"></div>
+        <div class="grid-cell" id="grid-cell-0-2"></div>
+        <div class="grid-cell" id="grid-cell-0-3"></div>
+        <div class="grid-cell" id="grid-cell-1-0"></div>
+        <div class="grid-cell" id="grid-cell-1-1"></div>
+        <div class="grid-cell" id="grid-cell-1-2"></div>
+        <div class="grid-cell" id="grid-cell-1-3"></div>
+        <div class="grid-cell" id="grid-cell-2-0"></div>
+        <div class="grid-cell" id="grid-cell-2-1"></div>
+        <div class="grid-cell" id="grid-cell-2-2"></div>
+        <div class="grid-cell" id="grid-cell-2-3"></div>
+        <div class="grid-cell" id="grid-cell-3-0"></div>
+        <div class="grid-cell" id="grid-cell-3-1"></div>
+        <div class="grid-cell" id="grid-cell-3-2"></div>
+        <div class="grid-cell" id="grid-cell-3-3"></div>
+    </div>
+
+</body>
+</html>
